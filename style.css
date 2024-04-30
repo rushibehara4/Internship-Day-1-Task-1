@@ -1,0 +1,60 @@
+.user-number-dropdown {
+  padding: 10px;
+  height: 40px;
+  width: 120px;
+  background-color: aliceblue;
+  margin-right: 10px;
+}
+
+.search-name {
+  height: 40px;
+  width: 180px;
+  border-radius: 8px;
+  margin-left: 10px;
+  outline: none;
+}
+
+.table-container {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.table-container th {
+    background-color: greenyellow;
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+
+.table-container td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+
+.table-container tbody tr:nth-child(even) {
+    background-color: #e7e5e596;
+}
+
+
+.table-container tbody tr:hover {
+    background-color: #e2e2e2;
+}
+
+
+.arrow-button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    &:hover {
+        cursor: pointer;
+        outline: none;
+    }
+}
+
+.rotate {
+    transform: rotate(90deg);
+}
